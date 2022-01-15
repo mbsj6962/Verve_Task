@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="Verve_Task,verve_task" />
+    <profile name="sbt 1" modules="Verve,Verve_Task,verve_task" />
   </component>
 </project>

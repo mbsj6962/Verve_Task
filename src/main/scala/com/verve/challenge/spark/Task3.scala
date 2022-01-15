@@ -11,7 +11,7 @@ object Task3 {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
     println("Start ... ")
-    System.setProperty("hadoop.home.dir", "C:\\Users\\m.basij\\Documents\\winutils-master\\hadoop-2.7.1\\bin")
+    System.setProperty("hadoop.home.dir", "C:\\Users\\m.basij\\IdeaProjects\\Verve_Task\\src\\test\\resources\\winutils-master\\hadoop-2.7.1\\bin")
 
     val spark = SparkSession.builder().appName("Verve").master("local[*]").getOrCreate()
 

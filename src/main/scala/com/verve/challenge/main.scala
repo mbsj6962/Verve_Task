@@ -124,5 +124,4 @@ object main {
       "revenue: " + res.revenue + "\n" +
       "}" + ","
   }
-  def only1(i: Int) = if (i == 1) true else false
 }
